@@ -1,0 +1,140 @@
+/* NAVBAR AND TITLE */
+.container-fluid {
+  background-color: #effffb;
+  /* background-color: #b2fcff; */
+  color: #39375b;
+  padding: 2%;
+  text-align: center;
+}
+.navbar {
+  background-color: #effffb;
+  /* background-color: #b2fcff; */
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.nav-item {
+padding: 0 18px;
+}
+h1.headding {
+  margin-top: 6%;
+  font-family: 'Sacramento', cursive;
+  /* font-family: 'Pacifico', cursive; */
+  font-size: 50px;
+  font-weight: bold;
+  color: #11999e;
+}
+h3.headding-description {
+  font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Sacramento', cursive; */
+  color: #11999e;
+}
+.web {
+  color: green;
+}
+.mount {
+  width: 60%;
+  margin-top: 2%;
+}
+.cloud {
+  height: 12%;
+  width: 12%;
+  position: absolute;
+}
+.top {
+  right: 10%;
+  top: 15%;
+}
+.bottom {
+  left: 15%;
+}
+
+/* profile image */
+.imagepic{
+  margin: auto;
+  text-align: center;
+  padding: 300px;
+  background-color: #38ef7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swarooppic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shinebox {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 14px 28px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.shinebox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 120px;
+  height: 200px;
+  background: rgba(255,255,255, 0.6);
+  transform: skewX(-50deg);
+  transition: all 0.7s;
+}
+.shinebox:hover::after {
+  left: 300px;
+}
+/* about me & skills */
+.aboutme {
+  margin: 0%;
+  text-align: center;
+  padding: 300px;
+  background-color: #38ef7d;
+  display: flex;
+  position: static;
+}
+.leftside {
+  background-color: red;
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+}
+.rightside {
+  background-color: blue;
+  height: 10%;
+  width: 10%;
+  right: 10px;
+  margin-right: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* fonts used in the website */
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
